@@ -33,22 +33,23 @@ var config = {
   },
   messageBrokerOpts: {
     //  To use message broker server, uncomment this:
-    messageBrokerServer: {
-      url: 'http://localhost:3380',
-    },
+    // messageBrokerServer: {
+    //   url: 'http://localhost:3380',
+    // },
   },
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.bitpay.com:443',
+      url: 'https://garlicinsight.com:443',
+      apiPrefix: '/insight-grlc-api'
     },
-    testnet: {
-      provider: 'insight',
-      url: 'https://test-insight.bitpay.com:443',
-      // url: 'http://localhost:3001',
-      // Multiple servers (in priority order)
-      // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
-    },
+    // testnet: {
+    //   provider: 'insight',
+    //   url: 'https://test-insight.bitpay.com:443',
+    //   // url: 'http://localhost:3001',
+    //   // Multiple servers (in priority order)
+    //   // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
+    // },
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
