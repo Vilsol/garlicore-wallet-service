@@ -21,7 +21,7 @@ var config = {
 
   storageOpts: {
     mongoDb: {
-      uri: 'mongodb://localhost:27017/bws',
+      uri: 'mongodb://mongo:27017/bws',
     },
   },
   lockOpts: {
