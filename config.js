@@ -1,5 +1,5 @@
 var config = {
-  basePath: '/bws/api',
+  basePath: '/gws/api',
   disableLogs: false,
   port: 3232,
 
