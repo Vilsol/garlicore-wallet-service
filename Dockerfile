@@ -17,4 +17,6 @@ ADD . /src
 
 ADD supervisord.conf /etc/
 
+EXPOSE 3232
+
 ENTRYPOINT ["/usr/local/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]
