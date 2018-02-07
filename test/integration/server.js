@@ -3796,7 +3796,7 @@ describe('Wallet service', function() {
         });
       });
       it('should select unconfirmed utxos if not enough confirmed utxos', function(done) {
-        helpers.stubUtxos(server, wallet, ['u 1btc', '0.5btc'], function() {
+        helpers.stubUtxos(server, wallet, ['u 1grlc', '0.5grlc'], function() {
           var txOpts = {
             outputs: [{
               toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
