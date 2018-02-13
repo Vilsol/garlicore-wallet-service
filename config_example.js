@@ -60,7 +60,7 @@ var config = {
     authorizationKey: '',
   },
   fiatRateServiceOpts: {
-    defaultProvider: 'BitPay',
+    defaultProvider: 'CMC',
     fetchInterval: 60, // in minutes
   },
   // To use email notifications uncomment this:
